@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.11.*"
 dependencies = [
+    "ipywidgets>=8.1.5",
     "jupyterlab>=4.2.5",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.2",
     "pycolmap>=3.10.0",
-    "pyvista>=0.44.1",
+    "pyvista[all,trame]>=0.44.1",
+    "trame>=3.7.0",
 ]
