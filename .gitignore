@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Python cache
+.ipynb_checkpoints
+
+# Data
+images/
+output/
+temp/
+
+# Misc
+.DS_Store
